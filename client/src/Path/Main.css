@@ -1,0 +1,17 @@
+.container {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonblock {
+  width: 150px;
+  height: 100px;
+}
+
+.mainbody {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}

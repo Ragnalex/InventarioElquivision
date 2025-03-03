@@ -1,0 +1,23 @@
+.Headercontainer {
+  display: flex;
+  justify-content: center ;
+  width: 94rem;
+  height: 2rem;
+  padding: 1rem;
+  position: absolute;
+  box-shadow: 5px 1px 1px gray;
+  top: 0;
+  left: 0;
+  background-color: rgb(32, 73, 138);
+}
+
+.tittle {
+  font-weight: 500;
+  font-size: x-large;
+  color: white;
+}
+
+.imgStyle {
+  border-radius: 50%;
+  margin-right: 50px;
+}
