@@ -76,7 +76,7 @@ const InventoryMain = () => {
   
   const getDataInsumos = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/insumos/data");
+      const res = await axios.get("http://192.168.0.166:5000/api/insumos/data");
       setinsumos(res.data);
     } catch (error) {
       console.log(error)
