@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 650px;
+  width: 1500px;
 }
 
 
@@ -23,5 +25,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media  (max-width: 1370px) {
+  .App {
+    height: 100px;
+    width: 1025px;
   }
 }

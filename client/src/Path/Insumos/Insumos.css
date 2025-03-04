@@ -34,3 +34,10 @@
   box-shadow: 24;
   padding: 50px;
 }
+
+@media (max-width: 1370px) {
+  .TableContainer {
+    width: 1200px;
+    height: 500px;
+  }
+}

@@ -21,3 +21,10 @@
   border-radius: 50%;
   margin-right: 50px;
 }
+
+@media (max-width: 1370px) {
+  .Headercontainer {
+    width: 62rem;
+    height: 1rem;
+  }
+}
